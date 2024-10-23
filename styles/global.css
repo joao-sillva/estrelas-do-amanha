@@ -22,3 +22,19 @@
   --stroke-highlight: #F3541C;
   --semantic-error: #DC2626;
 }
+
+body {
+  font: var(--text);
+  color: var(--text-secondary);
+  overflow: hidden;
+}
+
+h1,
+h2 {
+  color: var(--text-primary);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
