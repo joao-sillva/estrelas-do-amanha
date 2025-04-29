@@ -22,3 +22,9 @@
   --stroke-highlight: #F3541C;
   --semantic-error: #DC2626;
 }
+
+body {
+  font: var(--text);
+  color: var(--text-secondary);
+  overflow: hidden;
+}
