@@ -3,3 +3,22 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --poppins: "Poppins", sans-serif;
+  --text: 400 1rem/1.5 var(--poppins);
+  --text-sm: 400 .875rem/1.4 var(--poppins);
+
+  --text-primary: #292524;
+  --text-secondary: #57534E;
+  --text-tertiary: #8F8881;
+  --text-highlight: #E43A12;
+
+  --surface-primary: #FFFFFF;
+  --surface-secondary: #FEE7D6;
+  --surface-disabled: #E7E5E4;
+
+  --stroke-default: #D6D3D1;
+  --stroke-highlight: #F3541C;
+  --semantic-error: #DC2626;
+}
