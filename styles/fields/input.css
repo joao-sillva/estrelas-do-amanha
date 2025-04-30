@@ -26,3 +26,26 @@ input[type="date"]:focus-within {
   border: .125rem solid var(--stroke-highlight);
   outline-offset: 1px;
 }
+
+input[type="date"] {
+  position: relative;
+
+  &::-webkit-calendar-picker-indicator {
+    opacity: 0;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    background: url(../../assets/icons/calendar.svg) center/contain;
+    right: 1rem;
+    width: 1.25rem;
+    height: 1.25rem;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+select {
+  background: url(../../assets/icons/arrow-down.svg) no-repeat calc(100% - 1rem) center;
+}
