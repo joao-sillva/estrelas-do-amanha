@@ -1,0 +1,28 @@
+input,
+textarea,
+select {
+  width: 100%;
+  padding: .75rem 1rem;
+  appearance: none;
+  resize: none;
+  border-radius: .5rem;
+  border: 2px solid transparent;
+  outline: 1px solid var(--stroke-default);
+  font: var(--text);
+}
+
+label {
+  font: var(--text-sm);
+  color: var(--text-secondary);
+  display: block;
+  margin-bottom: .25rem;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+input[type="date"]:focus-within {
+  outline: .25rem solid var(--surface-secondary);
+  border: .125rem solid var(--stroke-highlight);
+  outline-offset: 1px;
+}
