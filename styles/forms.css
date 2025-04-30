@@ -14,3 +14,7 @@ legend {
   font: 600 1rem/1.25 var(--poppins);
   margin-bottom: 1.5rem;
 }
+
+fieldset + fieldset {
+  margin-top: 3rem;
+}
