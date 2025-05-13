@@ -26,4 +26,12 @@ button {
       outline: .25rem solid var(--surface-secondary);
     }
   }
+
+  @media (max-width: 376px) {
+    &.btn-primary,
+    &.btn-secondary {
+      width: 12rem;
+      margin-inline: auto;
+    }
+  }
 }

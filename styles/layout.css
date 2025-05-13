@@ -48,3 +48,36 @@ aside {
     }
   }
 }
+
+@media (width <= 42em) {
+  #app {
+    margin-inline: auto;
+    display: flex;
+    position: relative;
+    overflow-y: scroll;
+  }
+
+  aside {
+    position: absolute;
+    overflow-y: auto;
+    
+    & h2,
+    & p {
+      display: none;
+    }
+  }
+
+  main {
+    padding: 2rem;
+    padding-top: 30rem;
+    position: absolute;
+
+    & .main-container {
+      margin-inline: auto;
+    }
+
+    & h1 {
+      font-size: 1.6rem;
+    }
+  } 
+}
